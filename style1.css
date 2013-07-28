@@ -1,0 +1,392 @@
+/*
+CSS for ZhaoXiaoxiao.cn
+*/
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family:  STHeiti, STKaiti, Apple LiGothic Medium, LiHei Pro Medium, STSong, sans-serif;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: block;
+  width: 180px;
+  height: 243px;
+  float: left;
+  border-right: 3px solid black;
+}
+
+nav ul {
+  padding-top: 15px;
+  padding-left: 25px;
+  font-size: medium;
+  font-weight: bold;
+  line-height: 2em;
+}
+
+#tagline p {
+  margin: 0;
+  padding-top: .4em;
+  padding-left: 1.8em;
+  padding-bottom: .2em;
+  background-color: #FF0000;
+}
+
+h1 {
+  padding-top: 65px;
+  padding-left: .4em;
+  margin: 0;
+  background-color: #00B3FF;
+  border-bottom: 3px solid;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 190%;
+  text-align: center;
+}
+
+.caption {
+  display: block;
+  text-align: right;
+  margin-right: 100px;
+  margin-bottom: 30px;
+  font-size: 110%;
+}
+
+.title1 {
+  font-size: 150%;
+}
+
+.title2 {
+  font-size: 130%;
+}
+
+.title3 {
+  font-size: 115%;
+}
+
+.homepage {
+  display: block;
+  border: 15px solid white;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 15px black, -2px -2px 15px black;
+  box-shadow: 2px 2px 15px black, -2px -2px 15px black;
+  margin-bottom: 20px;
+  margin-top: 100px;
+  margin-left: 150px;
+}
+
+.myimage {
+  display: block;
+  border: 15px solid none;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 15px black, -2px -2px 15px black;
+  box-shadow: 2px 2px 15px black, -2px -2px 15px black;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  loat: left;
+}
+
+.jinshanmainui {
+  float: left;
+  margin-right: 15px;
+}
+
+.jinshanshuru {
+  float: left;
+  margin-right: 15px;
+}
+
+.jinshandanci {
+  float: left;
+  margin-right: 15px;
+}
+
+.jinshanyulan {
+  float: right;
+  margin-left: 15px;
+}
+
+.jinshanzhongwenshuru {
+  float: left;
+  margin-right: 15px;
+}
+
+.youdaomainui {
+  float: right;
+  margin-left: 15px;
+}
+
+.youdaoshuru {
+  float: left;
+  margin-ritht: 15px;
+}
+
+.youdaodanci {
+  float: left;
+  margin-right: 15px;
+}
+
+.youdaoyulan {
+  float: right;
+  margin-left: 15px;
+}
+
+.youdaotuisongjihuo {
+  float: left;
+  margin-right: 15px;
+  border: 1px solid black;
+}
+
+.haolianxi {
+  margin-left: 300px;
+}
+
+.homepageimage figcaption {
+  display: block;
+  font-size: 85%;
+  font-weight: bold;
+  line-height: 1.4em;
+  position: absolute;
+  top: 300px;
+  left: 800px;
+}
+
+#bodycontent ,nav {
+  top: 125px;
+}
+
+#bodycontent {
+  margin-left: 180px;
+  height: 100%;
+}
+
+header {
+  width: 100%;
+}
+
+#bodycontent nav ul li{
+  padding-top: 20px;
+  font-weight: bold;
+  line-height: 2em;
+}
+
+#bodycontent p{
+  font-size: small;
+  line-height: 2em;
+  margin-right: 100px;
+  margin-left: 61px;
+}
+
+#bodycontent .article p{
+  font-size: small;
+  line-height: 2em;
+  margin-right: 100px;
+  margin-left: 61px;
+}
+
+.vc {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 100px;
+}
+
+.resume {
+  font-size: normal;
+  margin-bottom: 70px;
+}
+
+.resume li {
+  font-size: 120%;
+}
+
+.statement {
+  margin-top: 10px;
+}
+
+.statement p {
+  color: blue;
+  font-size: 95%;
+}
+
+.more {
+  float:right;
+  margin-right: 150px;
+}
+
+.author {
+  float: right;
+}
+
+.tags {
+  font-weight: bold;
+}
+
+#function {
+  margin-right: 30px;
+}
+
+form {
+  display:inline;
+}
+
+.follow {
+  float: right;
+  margin: -25px 0 0 0;
+  *margin: -30px 0 0 0;
+  font-size: x-small;
+  font-weight: bold;
+}
+
+.search {
+  float: right;
+  margin: -25px 0 10px 10px;
+  *margin: -30px 0 0 0;
+  font-size: x-small;
+  font-weight: bold;
+}
+
+nav ul button {
+  background: #00B3FF url(overlay.png) repeat-x; 
+  display: inline-block; 
+  padding: 8px 14px 9px; 
+  color: #fff; 
+  text-decoration: none;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+  border-bottom: 1px solid rgba(0,0,0,0.25);
+  position: relative;
+  cursor: pointer;
+  font-size: 12px;
+  width: 130px;
+  margin-left : 0px;
+}
+
+nav ul button:hover {
+  background-color: #111; color: #fff;
+}
+
+nav ul button:active {
+  top: 1px;
+}
+
+.item {
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-bottom: 50px;
+}
+
+.title button {
+  background: #00B3FF url(overlay.png) repeat-x; 
+  padding: 8px 14px 9px; 
+  color: #fff; 
+  text-decoration: none;
+  -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+  border-bottom: 1px solid rgba(0,0,0,0.25);
+  position: relative;
+  cursor: pointer;
+  font-size: 15px;
+  width: 400px;
+  margin-left : 10px;
+}
+
+.item .title button:hover {
+  background-color: #111; color: #fff;
+}
+
+.item .title button:active {
+  top: 1px;
+}
+
+.date button {
+  background: #FF0000 url(overlay.png) repeat-x; 
+  padding: 8px 14px 9px; 
+  color: #fff; 
+  text-decoration: none;
+  -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+  border-bottom: 1px solid rgba(0,0,0,0.25);
+  position: relative;
+  cursor: pointer;
+  font-size: 12px;
+  width: 52px;
+  margin-left : 0px;
+}
+
+.resume button {
+  background: white url(overlay.png) repeat-x; 
+  display: inline-block; 
+  padding: 4px 14px 5px; 
+  color: black; 
+  text-decoration: none;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+  border-bottom: 1px solid rgba(0,0,0,0.25);
+  position: relative;
+  cursor: pointer;
+  font-size: 15px;
+  width: 500px;
+  margin-right : 100px;
+}
+
+.resume button:hover {
+  background-color: #111; color: #fff;
+}
+
+footer {
+  color: gray;
+  text-align: center;
+  margin-top:20px;
+  margin-bottom: 0;
+}
+
+.wwdc_image {
+  display: block;
+  border: 15px solid none;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 15px black, -2px -2px 15px black;
+  box-shadow: 2px 2px 15px black, -2px -2px 15px black;
+  margin-top: 70px;
+  margin-left: 70px;
+  margin-bottom: 20px;
+}
+
+.wwdcs figure img {
+  border: 14px solid white;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 15px black, -2px -2px 15px black;
+  box-shadow: 2px 2px 15px black, -2px -2px 15px black;
+  margin-bottom: 10px;
+}
+
+.wwdcs figcaption {
+  display: block;
+  font-size: 65%;
+  font-weight: bold;
+  margin-top: 0;
+  widh: 430px;
+  line-height: 1.4em;
+}
+
+.wwdcs figure {
+  display: block;
+  padding-bottom: 20px;
+  border-bottom: 1px solid navy;
+  margin-bottom: 10px;
+  margin-top: 70px;
+  margin-left: 70px;
+}
