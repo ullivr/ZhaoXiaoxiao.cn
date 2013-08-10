@@ -75,14 +75,13 @@ h2 {
 }
 
 .homepage {
-  display: block;
   border: 15px solid white;
   border-radius: 10px;
   -webkit-box-shadow: 2px 2px 15px black, -2px -2px 15px black;
   box-shadow: 2px 2px 15px black, -2px -2px 15px black;
   margin-bottom: 20px;
   margin-top: 100px;
-  margin-left: 150px;
+  margin-left: 185px;
 }
 
 .myimage {
@@ -161,11 +160,12 @@ h2 {
   left: 800px;
 }
 
-#bodycontent ,nav {
+#bodycontent {
   top: 125px;
+  height: 100%;
 }
 
-#bodycontent {
+#content {
   margin-left: 180px;
   height: 100%;
 }
@@ -174,30 +174,34 @@ header {
   width: 100%;
 }
 
-#bodycontent nav ul li{
+nav ul li{
   padding-top: 20px;
   font-weight: bold;
   line-height: 2em;
 }
 
-#bodycontent p{
+#content p{
   font-size: small;
   line-height: 2em;
   margin-right: 100px;
   margin-left: 61px;
 }
 
-#bodycontent .article p{
+#content .article p{
   font-size: small;
   line-height: 2em;
   margin-right: 100px;
   margin-left: 61px;
+}
+
+#content figure {
+  margin: 0;
 }
 
 .vc {
-  margin-top: 30px;
-  margin-left: 30px;
-  margin-bottom: 100px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 100px;
 }
 
 .resume {
@@ -281,9 +285,9 @@ nav ul button:active {
 }
 
 .item {
-  margin-top: 30px;
-  margin-left: 40px;
-  margin-bottom: 50px;
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-bottom: 50px;
 }
 
 .title button {
@@ -355,7 +359,6 @@ footer {
 }
 
 .wwdc_image {
-  display: block;
   border: 15px solid none;
   border-radius: 10px;
   -webkit-box-shadow: 2px 2px 15px black, -2px -2px 15px black;
