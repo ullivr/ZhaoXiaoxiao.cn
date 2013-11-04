@@ -13,6 +13,10 @@ body {
   padding: 0;
 }
 
+li {
+  list-style: none;
+}
+
 nav {
   display: block;
   width: 180px;
@@ -175,7 +179,6 @@ header {
 }
 
 nav ul li{
-  padding-top: 20px;
   font-weight: bold;
   line-height: 2em;
 }
