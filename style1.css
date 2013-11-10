@@ -80,23 +80,18 @@ h2 {
   font-size: 115%;
 }
 
+.homepageimage {
+  padding: 1px;
+}
+
 .homepage {
   border: 15px solid white;
   border-radius: 10px;
   -webkit-box-shadow: 2px 2px 15px black, -2px -2px 15px black;
   box-shadow: 2px 2px 15px black, -2px -2px 15px black;
   margin-bottom: 20px;
-  margin-top: 100px;
-  margin-left: 185px;
-}
-
-.myimage {
-  display: block;
-  border: 15px solid none;
-  border-radius: 10px;
-  -webkit-box-shadow: 2px 2px 15px black, -2px -2px 15px black;
-  box-shadow: 2px 2px 15px black, -2px -2px 15px black;
-  margin: 10px 0 20px 40px;
+  margin-top: 60px;
+  margin-left: 132px;
 }
 
 .jinshanmainui {
@@ -170,6 +165,7 @@ h2 {
 }
 
 #content {
+  padding: 55px;
   margin-left: 180px;
   min-height: 100%;
 }
@@ -201,41 +197,9 @@ nav ul li{
   margin: 0;
 }
 
-.vc {
-  padding-top: 30px;
-  padding-left: 30px;
-  padding-bottom: 10px;
-}
-
-.resume {
-  font-size: normal;
-  margin-bottom: 70px;
-}
-
-.resume li {
-  font-size: 120%;
-}
-
-.statement {
-  margin-top: 10px;
-}
-
-.statement p {
-  color: blue;
-  font-size: 95%;
-}
-
 .more {
   float:right;
   margin-right: 150px;
-}
-
-.author {
-  float: right;
-}
-
-.tags {
-  font-weight: bold;
 }
 
 #function {
@@ -288,8 +252,7 @@ nav ul button:active {
 }
 
 .item {
-  padding-top: 30px;
-  padding-left: 40px;
+  margin-top: -25px;
   padding-bottom: 50px;
 }
 
@@ -333,25 +296,30 @@ nav ul button:active {
   margin-left : 0px;
 }
 
-.resume button {
-  background: white url(overlay.png) repeat-x; 
-  display: inline-block; 
-  padding: 4px 14px 5px; 
-  color: black; 
-  text-decoration: none;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.6);
-  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
-  text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
-  border-bottom: 1px solid rgba(0,0,0,0.25);
-  position: relative;
-  cursor: pointer;
-  font-size: 15px;
-  width: 500px;
-  margin-right : 100px;
+dl {
+  margin-bottom: 20px;
 }
 
-.resume button:hover {
-  background-color: #111; color: #fff;
+dt {
+  font-weight: bold;
+}
+
+dt, dd {
+  line-height: 20px;
+}
+
+.about dt{
+  float: left;
+  width: 120px;
+}
+
+.about dd{
+  margin-left: 130px;
+}
+
+.about_dd{
+  padding: 0;
+  margin: 0;
 }
 
 footer {
@@ -362,12 +330,10 @@ footer {
 }
 
 #bodycontent .wwdc_image {
-  border: 15px solid none;
   border-radius: 10px;
   -webkit-box-shadow: 2px 2px 15px black, -2px -2px 15px black;
   box-shadow: 2px 2px 15px black, -2px -2px 15px black;
-  margin-top: 70px;
-  margin-left: 70px;
+  margin-top: 15px;
   margin-bottom: 20px;
 }
 
