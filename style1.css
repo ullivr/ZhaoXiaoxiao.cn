@@ -90,8 +90,8 @@ h2 {
   -webkit-box-shadow: 2px 2px 15px black, -2px -2px 15px black;
   box-shadow: 2px 2px 15px black, -2px -2px 15px black;
   margin-bottom: 20px;
-  margin-top: 60px;
-  margin-left: 132px;
+  margin-top: 105px;
+  margin-left: 177px;
 }
 
 .jinshanmainui {
@@ -165,7 +165,7 @@ h2 {
 }
 
 #content {
-  padding: 55px;
+  padding: 10px;
   margin-left: 180px;
   min-height: 100%;
 }
@@ -252,7 +252,8 @@ nav ul button:active {
 }
 
 .item {
-  margin-top: -25px;
+  margin-top: 20px;
+  margin-left: 45px;
   padding-bottom: 50px;
 }
 
@@ -308,6 +309,11 @@ dt, dd {
   line-height: 20px;
 }
 
+.about {
+  margin-top: 61px;
+  margin-left: 45px;
+}
+
 .about dt{
   float: left;
   width: 120px;
@@ -333,7 +339,8 @@ footer {
   border-radius: 10px;
   -webkit-box-shadow: 2px 2px 15px black, -2px -2px 15px black;
   box-shadow: 2px 2px 15px black, -2px -2px 15px black;
-  margin-top: 15px;
+  margin-top: 60px;
+  margin-left: 45px;
   margin-bottom: 20px;
 }
 
