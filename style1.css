@@ -179,18 +179,18 @@ nav ul li{
   line-height: 2em;
 }
 
-#content p{
+.item p{
   font-size: small;
   line-height: 2em;
   margin-right: 100px;
   margin-left: 61px;
 }
 
-#content .article p{
+.article p{
   font-size: small;
   line-height: 2em;
-  margin-right: 100px;
-  margin-left: 61px;
+  margin-right: 30px;
+  margin-left: 30px;
 }
 
 #content figure {
