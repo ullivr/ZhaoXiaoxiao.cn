@@ -6,6 +6,9 @@
       <lastmod>2013-11-12</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
+      <image:image>
+       <image:loc>http://zhaoxiaoxiao.cn/images/minecraft.jpg</image:loc>
+      </image:image>
    </url>
    <url>
       <loc>http://zhaoxiaoxiao.cn/oss.html/</loc>
@@ -18,6 +21,9 @@
       <lastmod>2013-11-12</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority>
+      <image:image>
+       <image:loc>http://zhaoxiaoxiao.cn/images/smartisan_os/first_page.png</image:loc>
+      </image:image>
    </url>
    <url>
       <loc>http://zhaoxiaoxiao.cn/apps.html/</loc>
@@ -30,24 +36,46 @@
       <lastmod>2013-11-12</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority>
+      <image:image>
+       <image:loc>http://zhaoxiaoxiao.cn/images/haolianxi/haolianxi.png</image:loc>
+      </image:image>
    </url>
    <url>
       <loc>http://zhaoxiaoxiao.cn/apps/jinshan_vs_youdao.html/</loc>
       <lastmod>2013-11-12</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority>
+      <image:image>
+       <image:loc>http://zhaoxiaoxiao.cn/images/jinshan_vs_youdao_ios/jinshanmainui.png</image:loc>
+       <image:loc>http://zhaoxiaoxiao.cn/images/jinshan_vs_youdao_ios/youdaomainui.png</image:loc>
+       <image:loc>http://zhaoxiaoxiao.cn/images/jinshan_vs_youdao_ios/jinshanshuru.png</image:loc>
+       <image:loc>http://zhaoxiaoxiao.cn/images/jinshan_vs_youdao_ios/youdaoshuru.png</image:loc>
+       <image:loc>http://zhaoxiaoxiao.cn/images/jinshan_vs_youdao_ios/jinshandanci.png</image:loc>
+       <image:loc>http://zhaoxiaoxiao.cn/images/jinshan_vs_youdao_ios/youdaodanci.png</image:loc>
+       <image:loc>http://zhaoxiaoxiao.cn/images/jinshan_vs_youdao_ios/youdaoyulan.png</image:loc>
+       <image:loc>http://zhaoxiaoxiao.cn/images/jinshan_vs_youdao_ios/jinshanyulan.png</image:loc>
+       <image:loc>http://zhaoxiaoxiao.cn/images/jinshan_vs_youdao_ios/jinshanzhongwenshuru.png</image:loc>
+       <image:loc>http://zhaoxiaoxiao.cn/images/jinshan_vs_youdao_ios/youdaotuisongjihuo.png</image:loc>
+      </image:image>
    </url>
    <url>
       <loc>http://zhaoxiaoxiao.cn/references.html/</loc>
       <lastmod>2013-11-12</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
+      <image:image>
+       <image:loc>http://zhaoxiaoxiao.cn/images/wwdc/wwdc_image.jpg</image:loc>
+      </image:image>
    </url>
    <url>
       <loc>http://zhaoxiaoxiao.cn/references/wwwdc.html/</loc>
       <lastmod>2013-11-12</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
+      <image:image>
+       <image:loc>http://zhaoxiaoxiao.cn/images/wwdc/wwdc_2012.jpg</image:loc>
+       <image:loc>http://zhaoxiaoxiao.cn/images/wwdc/wwdc_2011.png</image:loc>
+      </image:image>
    </url>
    <url>
       <loc>http://zhaoxiaoxiao.cn/about.html/</loc>
