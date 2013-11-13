@@ -47,14 +47,32 @@
       <priority>0.9</priority>
       <image:image>
        <image:loc>http://zhaoxiaoxiao.cn/images/jinshan_vs_youdao_ios/jinshanmainui.png</image:loc>
+      </image:image>
+      <image:image>
        <image:loc>http://zhaoxiaoxiao.cn/images/jinshan_vs_youdao_ios/youdaomainui.png</image:loc>
+      </image:image>
+      <image:image>
        <image:loc>http://zhaoxiaoxiao.cn/images/jinshan_vs_youdao_ios/jinshanshuru.png</image:loc>
+      </image:image>
+      <image:image>
        <image:loc>http://zhaoxiaoxiao.cn/images/jinshan_vs_youdao_ios/youdaoshuru.png</image:loc>
+      </image:image>
+      <image:image>
        <image:loc>http://zhaoxiaoxiao.cn/images/jinshan_vs_youdao_ios/jinshandanci.png</image:loc>
+      </image:image>
+      <image:image>
        <image:loc>http://zhaoxiaoxiao.cn/images/jinshan_vs_youdao_ios/youdaodanci.png</image:loc>
+      </image:image>
+      <image:image>
        <image:loc>http://zhaoxiaoxiao.cn/images/jinshan_vs_youdao_ios/youdaoyulan.png</image:loc>
+      </image:image>
+      <image:image>
        <image:loc>http://zhaoxiaoxiao.cn/images/jinshan_vs_youdao_ios/jinshanyulan.png</image:loc>
+      </image:image>
+      <image:image>
        <image:loc>http://zhaoxiaoxiao.cn/images/jinshan_vs_youdao_ios/jinshanzhongwenshuru.png</image:loc>
+      </image:image>
+      <image:image>
        <image:loc>http://zhaoxiaoxiao.cn/images/jinshan_vs_youdao_ios/youdaotuisongjihuo.png</image:loc>
       </image:image>
    </url>
@@ -74,6 +92,8 @@
       <priority>0.7</priority>
       <image:image>
        <image:loc>http://zhaoxiaoxiao.cn/images/wwdc/wwdc_2012.jpg</image:loc>
+      </image:image>
+      <image:image>
        <image:loc>http://zhaoxiaoxiao.cn/images/wwdc/wwdc_2011.png</image:loc>
       </image:image>
    </url>
