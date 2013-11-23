@@ -243,6 +243,12 @@ nav ul button {
   margin-left : 0px;
 }
 
+.blog {
+  background: #16a085 url(overlay.png) repeat-x; 
+  
+  margin-top: 1px; 
+}
+
 nav ul button:hover {
   background-color: #111; color: #fff;
 }

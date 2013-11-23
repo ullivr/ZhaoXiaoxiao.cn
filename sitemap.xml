@@ -105,4 +105,28 @@
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
+   <url>
+      <loc>http://zhaoxiaoxiao.cn/blog</loc>
+      <lastmod>2013-11-23</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>http://zhaoxiaoxiao.cn/blog/2013/11/smartisanos_v0-5-0_alpha</loc>
+      <lastmod>2013-11-10</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>http://zhaoxiaoxiao.cn/blog/2013/05/haolianxi</loc>
+      <lastmod>2013-05-19</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>http://zhaoxiaoxiao.cn/blog/2013/04/jinshan_vs_youdao</loc>
+      <lastmod>2013-04-23</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
 </urlset> 
