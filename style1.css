@@ -8,7 +8,8 @@ html, body {
 
 body {
   font-family:  STHeiti, STKaiti, Apple LiGothic Medium, LiHei Pro Medium, STSong, sans-serif;
-  background-color: white;
+  color: #16a085;
+  background-color: #222;
   margin: 0;
   padding: 0;
 }
@@ -34,16 +35,18 @@ nav ul {
 }
 
 #tagline p {
+  color: black;
   margin: 0;
   padding-top: .4em;
   padding-left: 1.8em;
   padding-bottom: .2em;
-  background-color: #FF0000;
+  background-color: green;
 }
 
 h1 {
+  color: black;
   padding-top: 65px;
-  padding-left: .4em;
+  padding-left: .8em;
   margin: 0;
   background-color: #00B3FF;
   border-bottom: 3px solid;
@@ -90,8 +93,8 @@ h2 {
   -webkit-box-shadow: 2px 2px 15px black, -2px -2px 15px black;
   box-shadow: 2px 2px 15px black, -2px -2px 15px black;
   margin-bottom: 20px;
-  margin-top: 105px;
-  margin-left: 177px;
+  margin-top: 179px;
+  margin-left: 178px;
 }
 
 .jinshanmainui {
@@ -155,8 +158,8 @@ h2 {
   font-weight: bold;
   line-height: 1.4em;
   position: absolute;
-  top: 300px;
-  left: 800px;
+  top: 524px;
+  left: 777px;
 }
 
 #bodycontent {
@@ -288,7 +291,7 @@ nav ul button:active {
 }
 
 .date button {
-  background: #FF0000 url(overlay.png) repeat-x; 
+  background: #16a085 url(overlay.png) repeat-x; 
   padding: 8px 14px 9px; 
   color: #fff; 
   text-decoration: none;
