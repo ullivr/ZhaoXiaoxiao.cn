@@ -83,17 +83,13 @@ h2 {
   font-size: 115%;
 }
 
-.homepage {
-  padding: 1px;
-}
-
 .minecraft {
   border: 15px solid white;
   border-radius: 10px;
   -webkit-box-shadow: 2px 2px 15px black, -2px -2px 15px black;
   box-shadow: 2px 2px 15px black, -2px -2px 15px black;
   margin-bottom: 20px;
-  margin-top: 179px;
+  margin-top: 167px;
   margin-left: 58px;
 }
 
@@ -164,11 +160,13 @@ h2 {
 
 #bodycontent {
   top: 125px;
+  width: 100%;
   min-height: 100%;
 }
 
 #content {
-  padding: 10px;
+  display: block;
+  padding: 22px 10px;
   margin-left: 180px;
   min-height: 100%;
 }
