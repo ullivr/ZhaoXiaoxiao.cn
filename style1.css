@@ -83,11 +83,11 @@ h2 {
   font-size: 115%;
 }
 
-.homepageimage {
+.homepage {
   padding: 1px;
 }
 
-.homepage {
+.minecraft {
   border: 15px solid white;
   border-radius: 10px;
   -webkit-box-shadow: 2px 2px 15px black, -2px -2px 15px black;
@@ -152,7 +152,7 @@ h2 {
   margin-left: 300px;
 }
 
-.homepageimage figcaption {
+.homepage figcaption {
   display: block;
   font-size: 85%;
   font-weight: bold;
@@ -194,10 +194,6 @@ nav ul li{
   line-height: 2em;
   margin-right: 30px;
   margin-left: 30px;
-}
-
-#content figure {
-  margin: 0;
 }
 
 .more {
