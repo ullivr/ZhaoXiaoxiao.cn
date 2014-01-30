@@ -19,7 +19,7 @@ nav li {
 }
 
 li a {
-  color: #16a085;
+  color: #00B3FF;
 }
 
 nav {
@@ -162,6 +162,7 @@ nav ul button:active {
 }
 
 .links ul {
+  color: white;
   line-height: 2em;
 }
 
