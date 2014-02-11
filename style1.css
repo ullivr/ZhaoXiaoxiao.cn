@@ -129,7 +129,7 @@ form {
 }
 
 nav ul button {
-  background: #00B3FF url(overlay.png) repeat-x; 
+  background: #00B3FF; 
   display: inline-block; 
   padding: 8px 14px 9px; 
   color: #fff; 
@@ -143,7 +143,7 @@ nav ul button {
 }
 
 .blog {
-  background: #16a085 url(overlay.png) repeat-x; 
+  background: #16a085; 
   
   margin-top: 1px; 
 }
