@@ -178,6 +178,10 @@ dt, dd {
   line-height: 20px;
 }
 
+dd a {
+  color: #00B3FF;
+}
+
 .about {
   margin-top: 61px;
   margin-left: 45px;
