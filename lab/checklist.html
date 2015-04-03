@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div id="table_info"></div>
+    
+    <div id="explanation"></div>
+    
+    <h2>Let's talk about cats</h2>
+    <ul id="Sheet1"></ul>
+
+    <h2>Let's learn a thing or two</h2>
+    <ul id="Sheet2"></ul>
+
+    <!-- Don't need jQuery for Tabletop, but using it for this example -->
+    <script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="../js/tabletop.js"></script>
+    <script type="text/javascript">
+      var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1cuWg1x3f07fg5AgGxufF6ntUbzYQvBwbogVRRPEHGyw/pubhtml';
+
+      $(document).ready( function() {
+        Tabletop.init( { key: public_spreadsheet_url,
+                         callback: showInfo,
+                         wanted: [ "Sheet1", "Sheet2" ],
+                         debug: true } )
+      })
+        
+      function showInfo(data, tabletop) {
+        $("#table_info").text("We found the tables " + tabletop.model_names.join(", "));
+
+        $.each( tabletop.sheets(), function(i, sheet) {
+          $("#table_info").append("<p>" + sheet.name + " has " + sheet.column_names.join(", ") + "</p>");
+        });
+
+        $.each( tabletop.sheets("Sheet1").all(), function(i, Checklist) {
+          var Checklist_li = $('<li><h4>' + Checklist.name + '</h4></li>')
+          Checklist_li.append(Checklist.url);
+          Checklist_li.appendTo("#Sheet1");
+        })
+
+        $.each( tabletop.sheets("Sheet2").all(), function(i, course) {
+          var cat_li = $('<li><h4>' + course.title + '</h4></li>')
+          cat_li.append(course.description);
+          cat_li.append("<p>Cost: $" + course.cost + "</p>");
+          cat_li.appendTo("#Sheet2");
+        })
+        
+      }
+
+      document.write("The published spreadsheet is located at <a target='_new' href='" + public_spreadsheet_url + "'>" + public_spreadsheet_url + "</a>");    
+    </script>
+  </body>
+</html>
