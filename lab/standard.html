@@ -5,7 +5,7 @@
     
     <div id="explanation"></div>
     
-    <h2>Let's talk about Awesome WebPages</h2>
+    <h2>Let's talk about cats</h2>
     <ul id="Sheet1"></ul>
 
     <h2>Let's learn a thing or two</h2>
@@ -32,7 +32,7 @@
         });
 
         $.each( tabletop.sheets("Sheet1").all(), function(i, Checklist) {
-          var Checklist_li = $('<li><h4>' + Checklist.Name + '</h4></li>')
+          var Checklist_li = $('<a><h4>' + Checklist.Name + '</h4></a>')
           Checklist_li.append(Checklist.Url);
           Checklist_li.appendTo("#Sheet1");
         })
