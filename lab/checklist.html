@@ -12,7 +12,7 @@
     <ul id="Sheet2"></ul>
 
     <!-- Don't need jQuery for Tabletop, but using it for this example -->
-    <script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.js"></script>
     <script type="text/javascript" src="../js/tabletop.js"></script>
     <script type="text/javascript">
       var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1cuWg1x3f07fg5AgGxufF6ntUbzYQvBwbogVRRPEHGyw/pubhtml';
@@ -20,6 +20,14 @@
       $(document).ready( function() {
         Tabletop.init( { key: public_spreadsheet_url,
                          callback: showInfo,
+                         /*callback: function() {
+                           console.log("Completed'");
+                         },*/
+                         parameterize: 'http://zxx-checklist.herokuapp.com/proxy?url=https://docs.google.com/spreadsheets/d/1cuWg1x3f07fg5AgGxufF6ntUbzYQvBwbogVRRPEHGyw/pubhtml',
+                         //wanted: [ "Sheet1", "Sheet2" ],heroku config:add AWS_ACCESS_KEY_ID=AKIAJWB2XB4ILTHOFVCQ AWS_SECRET_ACCESS_KEY=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 AWS_BUCKET=zxx-checklist
+                         //heroku run rake flatware:process "key"="1cuWg1x3f07fg5AgGxufF6ntUbzYQvBwbogVRRPEHGyw"
+                         //heroku config:set GS_PROXY_KEYS=1cuWg1x3f07fg5AgGxufF6ntUbzYQvBwbogVRRPEHGyw
+                         //proxy: 'https://zxx-checklist.s3.amazonaws.com',
                          wanted: [ "Sheet1", "Sheet2" ],
                          debug: true } )
       })
