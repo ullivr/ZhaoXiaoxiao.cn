@@ -183,17 +183,19 @@ dd a {
 }
 
 .about {
-  margin-top: 61px;
-  margin-left: 45px;
+  width: 900px;
+  margin: 30px auto;
 }
 
 .about dt{
   float: left;
   width: 120px;
+  text-align: left;
 }
 
 .about dd{
   margin-left: 130px;
+  text-align: left;
 }
 
 .about_dd{
@@ -206,39 +208,4 @@ footer {
   text-align: center;
   margin-top: 100px;
   margin-bottom: 0;
-}
-
-#bodycontent .wwdc_image {
-  border-radius: 10px;
-  -webkit-box-shadow: 2px 2px 15px black, -2px -2px 15px black;
-  box-shadow: 2px 2px 15px black, -2px -2px 15px black;
-  margin-top: 60px;
-  margin-left: 45px;
-  margin-bottom: 20px;
-}
-
-#bodycontent .wwdcs figure img {
-  border: 14px solid white;
-  border-radius: 10px;
-  -webkit-box-shadow: 2px 2px 15px black, -2px -2px 15px black;
-  box-shadow: 2px 2px 15px black, -2px -2px 15px black;
-  margin-bottom: 10px;
-}
-
-#bodycontent .wwdcs figcaption {
-  display: block;
-  font-size: 65%;
-  font-weight: bold;
-  margin-top: 0;
-  widh: 430px;
-  line-height: 1.4em;
-}
-
-#bodycontent .wwdcs figure {
-  display: block;
-  padding-bottom: 20px;
-  border-bottom: 1px solid navy;
-  padding-bottom: 10px;
-  padding-top: 70px;
-  padding-left: 70px;
 }
