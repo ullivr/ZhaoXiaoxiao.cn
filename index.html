@@ -69,42 +69,41 @@
         </div>
       </div>
     </header>
-    <div id="bodycontent">
-      <div id="content">          
-        <p>Check out these Awesome Webpages:</p>
-        <ul id="Sheet1"></ul>
+    <div class="content">
+      <p style="float:left">This content may need a little more time to load, please be patient.</p>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.html">Refresh</a></p>
+      <br>
+      <p>Blogs:</p>
+      <ul id="Sheet1"></ul>
 
-        <p>Let's learn a thing or two</p>
-        <ul id="Sheet2"></ul>
+      <p>Others:</p>
+      <ul id="Sheet2"></ul>
 
-        <script type="text/javascript">
-          var public_spreadsheet_url = 'https://docs.google.com/spreadsheet/pub?key=0AuEIxf0KPKPHdGo2VkRZNTRSMUE5Z0RLeGpIMUFtSWc&output=html';
+      <script type="text/javascript">
+        var public_spreadsheet_url = 'https://docs.google.com/spreadsheet/pub?key=0AuEIxf0KPKPHdGo2VkRZNTRSMUE5Z0RLeGpIMUFtSWc&output=html';
 
-          $(document).ready( function() {
-            Tabletop.init( { key: public_spreadsheet_url,
-                             callback: showInfo,
-                             proxy: 'https://webp-checklist.s3.amazonaws.com',
-                             wanted: [ "Sheet1", "Sheet2" ],
-                             debug: true } )
+        $(document).ready( function() {
+          Tabletop.init( { key: public_spreadsheet_url,
+                           callback: showInfo,
+                           proxy: 'https://webp-checklist.s3.amazonaws.com',
+                           wanted: [ "Sheet1", "Sheet2" ],
+                           debug: true } )
+        })
+          
+        function showInfo(data, tabletop) {
+
+          $.each( tabletop.sheets("Sheet1").all(), function(i, Checklist) {
+            var Checklist_li = $('<a href=' + Checklist.url + ' target=_blank><h4>' + Checklist.name + '</h4></a>')
+            Checklist_li.appendTo("#Sheet1");
           })
-            
-          function showInfo(data, tabletop) {
 
-            $.each( tabletop.sheets("Sheet1").all(), function(i, Checklist) {
-              var Checklist_li = $('<a href=' + Checklist.url + ' target=_blank><h4>' + Checklist.name + '</h4></a>')
-              Checklist_li.appendTo("#Sheet1");
-            })
-
-            $.each( tabletop.sheets("Sheet2").all(), function(i, Checklist) {
-              var Checklist_li = $('<a href=' + Checklist.url + ' target=_blank><h4>' + Checklist.name + '</h4></a>')
-              Checklist_li.appendTo("#Sheet2");
-            })        
-            
-          }
-
-          document.write("Checkout all these Webpages at <a target='_new' href='" + public_spreadsheet_url + "'>here</a>");    
-        </script>
-      </div>
+          $.each( tabletop.sheets("Sheet2").all(), function(i, Checklist) {
+            var Checklist_li = $('<a href=' + Checklist.url + ' target=_blank><h4>' + Checklist.name + '</h4></a>')
+            Checklist_li.appendTo("#Sheet2");
+          })        
+          
+        }
+      </script>
     </div>
     <footer>
       <div class="pageinfo">

@@ -16,6 +16,9 @@ body {
 
 #clock{
   float: left;
+  position: absolute;
+  left: 10px;
+  top: 10px;
 }
 
 #what {
@@ -39,22 +42,6 @@ body {
   list-style: none;
 }
 
-nav {
-  display: block;
-  width: 180px;
-  height: 243px;
-  float: left;
-  border-right: 3px solid black;
-}
-
-nav ul {
-  padding-top: 15px;
-  padding-left: 25px;
-  font-size: medium;
-  font-weight: bold;
-  line-height: 2em;
-}
-
 .title {
   color: #00B3FF;
   margin: 0;
@@ -65,71 +52,14 @@ a {
   color: #00B3FF;
 }
 
-h2 {
-  font-size: 190%;
-  text-align: center;
-  margin: 0;
-  padding: 30px 0 15px 0;
-}
-
-#bodycontent {
+.content {
   clear: both;
-  top: 125px;
-  width: 100%;
   min-height: 100%;
-}
-
-#content {
-  display: block;
-  padding: 22px 10px;
-  margin-left: 180px;
-  min-height: 100%;
+  padding: 50px 30px;
 }
 
 header {
   width: 100%;
-}
-
-form {
-  display:inline;
-}
-
-nav ul button {
-  background: #00B3FF; 
-  display: inline-block; 
-  padding: 8px 14px 9px; 
-  color: #fff; 
-  text-decoration: none;
-  border-bottom: 1px solid rgba(0,0,0,0.25);
-  position: relative;
-  cursor: pointer;
-  font-size: 12px;
-  width: 130px;
-  margin-left : 0px;
-}
-
-.blog {
-  background: #16a085; 
-  
-  margin-top: 1px; 
-}
-
-nav ul button:hover {
-  background-color: #111; color: #fff;
-}
-
-nav ul button:active {
-  top: 1px;
-}
-
-.links {
-  margin-top: 49px;
-  margin-left: 10px;
-}
-
-.links ul {
-  color: white;
-  line-height: 2em;
 }
 
 dl {
