@@ -24,7 +24,6 @@
     <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="js/jquery.knob.js"></script>
     <script type="text/javascript" src="js/jquery.knob.clock.js"></script>
-    <script type="text/javascript" src="js/tabletop.js"></script>
   </head>
   <body>
     <header>
@@ -70,40 +69,42 @@
       </div>
     </header>
     <div class="content">
-      <p style="float:left">This content may need a little more time to load, please be patient.</p>
-      <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.html">Refresh</a></p>
-      <br>
       <p>Blogs:</p>
-      <ul id="Sheet1"></ul>
+      <ul>
+        <?php
+          require("config.php");
+          $con = mysql_connect($db_host,$db_username,$db_password);
+          if (!$con)
+            {
+            die('Could not connect: ' . mysql_error());
+            }
 
-      <p>Others:</p>
-      <ul id="Sheet2"></ul>
+          mysql_select_db($db_name, $con);
 
-      <script type="text/javascript">
-        var public_spreadsheet_url = 'https://docs.google.com/spreadsheet/pub?key=0AuEIxf0KPKPHdGo2VkRZNTRSMUE5Z0RLeGpIMUFtSWc&output=html';
+          $result = mysql_query("SELECT * FROM checklist 
+            WHERE Category='Blog'");
 
-        $(document).ready( function() {
-          Tabletop.init( { key: public_spreadsheet_url,
-                           callback: showInfo,
-                           proxy: 'https://webp-checklist.s3.amazonaws.com',
-                           wanted: [ "Sheet1", "Sheet2" ],
-                           debug: true } )
-        })
-          
-        function showInfo(data, tabletop) {
+          while($row = mysql_fetch_array($result))
+            {
+            echo "<a href=" . $row['url'] . "><h4>" . $row['name'] . "</h4></a>";
+            }
+        ?>
+      </ul>
+      <p>Ohters:</p>
+      <ul>
+        <?php
+          $result = mysql_query("SELECT * FROM checklist 
+            WHERE Category='Other'");
 
-          $.each( tabletop.sheets("Sheet1").all(), function(i, Checklist) {
-            var Checklist_li = $('<a href=' + Checklist.url + ' target=_blank><h4>' + Checklist.name + '</h4></a>')
-            Checklist_li.appendTo("#Sheet1");
-          })
-
-          $.each( tabletop.sheets("Sheet2").all(), function(i, Checklist) {
-            var Checklist_li = $('<a href=' + Checklist.url + ' target=_blank><h4>' + Checklist.name + '</h4></a>')
-            Checklist_li.appendTo("#Sheet2");
-          })        
-          
-        }
-      </script>
+          while($row = mysql_fetch_array($result))
+            {
+            echo "<a href=" . $row['url'] . "><h4>" . $row['name'] . "</h4></a>";
+            }
+        ?>
+      </ul>
+      <?php
+        mysql_close($con);
+      ?>
     </div>
     <footer>
       <div class="pageinfo">
